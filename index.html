@@ -47,22 +47,19 @@
             font-weight: bold;
         }
         
-        .header hr {
-            width: 280px;
-            margin: 10px auto 0;
-            border: none;
-            border-top: 3px solid #0033cc;
-        }
-        
         .title {
             color: #e60000;
-            margin-bottom: 60px;
+            margin-bottom: 30px;
             line-height: 1.5;
         }
         
         .title h2 {
             font-size: 26px;
             font-weight: bold;
+        }
+
+        .main-button-container {
+            margin-bottom: 40px; /* Khoảng cách giữa nút nhà trường và các nút tổ */
         }
         
         .button-group {
@@ -76,7 +73,7 @@
             background-color: #0b3cb3;
             color: #ffffff;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: bold;
             padding: 16px 28px;
             border-radius: 12px;
@@ -88,6 +85,16 @@
             background-color: #082980; /* Màu tối hơn khi di chuột vào */
             transform: translateY(-3px); /* Hiệu ứng nảy lên nhẹ */
         }
+
+        .btn-red {
+            background-color: #ff0000;
+            font-size: 20px;
+            padding: 16px 40px;
+        }
+
+        .btn-red:hover {
+            background-color: #cc0000;
+        }
     </style>
 </head>
 <body>
@@ -96,12 +103,14 @@
         <div class="header">
             <h2>SỞ GIÁO DỤC VÀ ĐÀO TẠO TUYÊN QUANG</h2>
             <h1>TRƯỜNG THPT ATK TÂN TRÀO</h1>
-            <hr>
         </div>
 
         <div class="title">
-            <h2>HỆ THỐNG QUẢN LÍ</h2>
-            <h2>SỔ GHI CHÉP NỘI DUNG CÁC HOẠT ĐỘNG CỦA TỔ CHUYÊN MÔN</h2>
+            <h2>HỆ THỐNG QUẢN LÍ HỒ SƠ ĐIỆN TỬ</h2>
+        </div>
+
+        <div class="main-button-container">
+            <a href="https://itexteams.github.io/thptatktantrao/" target="_blank" class="btn btn-red">Nhà trường</a>
         </div>
 
         <div class="button-group">
